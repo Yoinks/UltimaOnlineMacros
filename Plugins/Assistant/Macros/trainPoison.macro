@@ -1,0 +1,5 @@
+!Loop
+Assistant.Macros.GumpResponseAction|7|0|0
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.ContextMenuAction|0x405CB99D|0|6353
+Assistant.Macros.PauseAction|00:00:04

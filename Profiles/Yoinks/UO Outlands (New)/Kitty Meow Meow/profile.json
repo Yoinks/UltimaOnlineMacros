@@ -1,0 +1,613 @@
+{
+  "$type": "ClassicUO.Configuration.Profile, ClassicUO",
+  "EnableSound": true,
+  "SoundVolume": 3,
+  "EnableMusic": false,
+  "MusicVolume": 100,
+  "EnableFootstepsSound": true,
+  "EnableCombatMusic": true,
+  "ReproduceSoundsInBackground": false,
+  "ChatFont": 1,
+  "SpeechDelay": 100,
+  "ScaleSpeechDelay": true,
+  "SaveJournalToFile": false,
+  "SpeechHue": 690,
+  "WhisperHue": 51,
+  "EmoteHue": 33,
+  "YellHue": 33,
+  "PartyMessageHue": 68,
+  "GuildMessageHue": 68,
+  "AllyMessageHue": 87,
+  "InnocentHue": 90,
+  "PartyAuraHue": 68,
+  "FriendHue": 68,
+  "CriminalHue": 946,
+  "AnimalHue": 946,
+  "EnemyHue": 49,
+  "MurdererHue": 35,
+  "BeneficHue": 89,
+  "HarmfulHue": 32,
+  "NeutralHue": 945,
+  "EnabledSpellHue": false,
+  "EnabledSpellFormat": false,
+  "SpellDisplayFormat": "{power} [{spell}]",
+  "PoisonHue": 68,
+  "ParalyzedHue": 332,
+  "InvulnerableHue": 48,
+  "EnabledCriminalActionQuery": true,
+  "ShowIncomingNames": true,
+  "EnableStatReport": true,
+  "EnableSkillReport": true,
+  "UseOldStatusGump": false,
+  "BackpackStyle": 0,
+  "HighlightGameObjects": false,
+  "HighlightMobilesByFlags": true,
+  "ShowMobilesHP": true,
+  "MobileHPType": 1,
+  "MobileHPShowWhen": 0,
+  "DrawRoofs": true,
+  "TreeToStumps": false,
+  "EnableCaveBorder": false,
+  "HideVegetation": false,
+  "FieldsType": 0,
+  "NoColorObjectsOutOfRange": false,
+  "UseCircleOfTransparency": false,
+  "CircleOfTransparencyRadius": 100,
+  "VendorGumpHeight": 60,
+  "ScaleZoom": 1.0,
+  "RestoreScaleValue": 1.0,
+  "EnableScaleZoom": false,
+  "SaveScaleAfterClose": false,
+  "RestoreScaleAfterUnpressCtrl": false,
+  "BandageSelfOld": true,
+  "EnableDeathScreen": true,
+  "EnableBlackWhiteEffect": true,
+  "EnableTooltip": true,
+  "DelayShowTooltip": 250,
+  "TooltipTextHue": 65535,
+  "EnablePathfind": false,
+  "UseShiftToPathfind": false,
+  "AlwaysRun": true,
+  "AlwaysRunUnlessHidden": true,
+  "SmoothMovements": true,
+  "HoldDownKeyTab": true,
+  "HoldShiftForContext": false,
+  "HoldShiftToSplitStack": false,
+  "WindowClientBounds": "640,480",
+  "ContainerDefaultPosition": "24,24",
+  "GameWindowPosition": "-4,-4",
+  "GameWindowLock": false,
+  "GameWindowFullSize": false,
+  "WindowBorderless": false,
+  "GameWindowSize": "1559,849",
+  "TopbarGumpPosition": "0,0",
+  "TopbarGumpIsMinimized": false,
+  "TopbarGumpIsDisabled": false,
+  "UseAlternativeLights": false,
+  "UseCustomLightLevel": true,
+  "LightLevel": 0,
+  "UseColoredLights": true,
+  "UseDarkNights": false,
+  "CloseHealthBarType": 0,
+  "ActivateChatAfterEnter": false,
+  "ActivateChatAdditionalButtons": true,
+  "ActivateChatShiftEnterSupport": true,
+  "UseObjectsFading": true,
+  "HoldDownKeyAltToCloseAnchored": true,
+  "CloseAllAnchoredGumpsInGroupWithRightClick": false,
+  "HoldAltToMoveGumps": false,
+  "EnableSelectionArea": false,
+  "DebugGumpIsDisabled": false,
+  "DebugGumpPosition": "25,25",
+  "DebugGumpIsMinimized": true,
+  "RestoreLastGameSize": false,
+  "CastSpellsByOneClick": false,
+  "BuffBarTime": false,
+  "AutoOpenDoors": true,
+  "SmoothDoors": true,
+  "AutoOpenCorpses": true,
+  "AutoOpenCorpseRange": 2,
+  "CorpseOpenOptions": 3,
+  "SkipEmptyCorpse": true,
+  "DisableDefaultHotkeys": false,
+  "DisableArrowBtn": false,
+  "DisableTabBtn": false,
+  "DisableCtrlQWBtn": false,
+  "EnableDragSelect": true,
+  "DragSelectModifierKey": 2,
+  "OverrideContainerLocation": true,
+  "OverrideContainerLocationSetting": 2,
+  "OverrideContainerLocationPosition": "1645,752",
+  "DragSelectHumanoidsOnly": true,
+  "NameOverheadTypeAllowed": 3,
+  "NameOverheadToggled": false,
+  "ShowTargetRangeIndicator": false,
+  "PartyInviteGump": true,
+  "CustomBarsToggled": true,
+  "CBBlackBGToggled": true,
+  "ShowInfoBar": false,
+  "InfoBarHighlightType": 0,
+  "InfoBarItems": {
+    "$type": "ClassicUO.Game.Managers.InfoBarItem[], ClassicUO",
+    "$values": [
+      {
+        "$type": "ClassicUO.Game.Managers.InfoBarItem, ClassicUO",
+        "label": "",
+        "var": 23,
+        "hue": 978
+      },
+      {
+        "$type": "ClassicUO.Game.Managers.InfoBarItem, ClassicUO",
+        "label": "Hits",
+        "var": 0,
+        "hue": 438
+      },
+      {
+        "$type": "ClassicUO.Game.Managers.InfoBarItem, ClassicUO",
+        "label": "Mana",
+        "var": 1,
+        "hue": 493
+      },
+      {
+        "$type": "ClassicUO.Game.Managers.InfoBarItem, ClassicUO",
+        "label": "Stam",
+        "var": 2,
+        "hue": 558
+      },
+      {
+        "$type": "ClassicUO.Game.Managers.InfoBarItem, ClassicUO",
+        "label": "Weight",
+        "var": 3,
+        "hue": 978
+      }
+    ]
+  },
+  "Macros": {
+    "$type": "ClassicUO.Game.Managers.Macro[], ClassicUO",
+    "$values": [
+      {
+        "$type": "ClassicUO.Game.Managers.Macro, ClassicUO",
+        "Name": "Bow",
+        "Key": 98,
+        "Alt": false,
+        "Ctrl": true,
+        "Shift": false,
+        "FirstNode": {
+          "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+          "Code": 18,
+          "SubCode": 0,
+          "HasSubMenu": 0,
+          "Right": null
+        }
+      },
+      {
+        "$type": "ClassicUO.Game.Managers.Macro, ClassicUO",
+        "Name": "Salute",
+        "Key": 115,
+        "Alt": false,
+        "Ctrl": true,
+        "Shift": false,
+        "FirstNode": {
+          "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+          "Code": 19,
+          "SubCode": 0,
+          "HasSubMenu": 0,
+          "Right": null
+        }
+      },
+      {
+        "$type": "ClassicUO.Game.Managers.Macro, ClassicUO",
+        "Name": "Explosion",
+        "Key": 1073741887,
+        "Alt": false,
+        "Ctrl": false,
+        "Shift": false,
+        "FirstNode": {
+          "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+          "Code": 6,
+          "SubCode": 0,
+          "HasSubMenu": 0,
+          "Right": {
+            "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+            "Code": 15,
+            "SubCode": 104,
+            "HasSubMenu": 1,
+            "Right": {
+              "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+              "Code": 6,
+              "SubCode": 0,
+              "HasSubMenu": 0,
+              "Right": null
+            }
+          }
+        }
+      },
+      {
+        "$type": "ClassicUO.Game.Managers.Macro, ClassicUO",
+        "Name": "Energybolt",
+        "Key": 1073741888,
+        "Alt": false,
+        "Ctrl": false,
+        "Shift": false,
+        "FirstNode": {
+          "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+          "Code": 6,
+          "SubCode": 0,
+          "HasSubMenu": 0,
+          "Right": {
+            "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+            "Code": 15,
+            "SubCode": 103,
+            "HasSubMenu": 1,
+            "Right": {
+              "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+              "Code": 6,
+              "SubCode": 0,
+              "HasSubMenu": 0,
+              "Right": null
+            }
+          }
+        }
+      },
+      {
+        "$type": "ClassicUO.Game.Managers.Macro, ClassicUO",
+        "Name": "Flamestrike",
+        "Key": 1073741890,
+        "Alt": false,
+        "Ctrl": false,
+        "Shift": false,
+        "FirstNode": {
+          "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+          "Code": 6,
+          "SubCode": 0,
+          "HasSubMenu": 0,
+          "Right": {
+            "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+            "Code": 15,
+            "SubCode": 112,
+            "HasSubMenu": 1,
+            "Right": {
+              "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+              "Code": 6,
+              "SubCode": 0,
+              "HasSubMenu": 0,
+              "Right": null
+            }
+          }
+        }
+      },
+      {
+        "$type": "ClassicUO.Game.Managers.Macro, ClassicUO",
+        "Name": "Lightning",
+        "Key": 1073741889,
+        "Alt": false,
+        "Ctrl": false,
+        "Shift": false,
+        "FirstNode": {
+          "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+          "Code": 6,
+          "SubCode": 0,
+          "HasSubMenu": 0,
+          "Right": {
+            "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+            "Code": 15,
+            "SubCode": 91,
+            "HasSubMenu": 1,
+            "Right": {
+              "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+              "Code": 6,
+              "SubCode": 0,
+              "HasSubMenu": 0,
+              "Right": null
+            }
+          }
+        }
+      },
+      {
+        "$type": "ClassicUO.Game.Managers.Macro, ClassicUO",
+        "Name": "Weaken",
+        "Key": 1073741883,
+        "Alt": false,
+        "Ctrl": false,
+        "Shift": false,
+        "FirstNode": {
+          "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+          "Code": 6,
+          "SubCode": 0,
+          "HasSubMenu": 0,
+          "Right": {
+            "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+            "Code": 15,
+            "SubCode": 69,
+            "HasSubMenu": 1,
+            "Right": {
+              "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+              "Code": 6,
+              "SubCode": 0,
+              "HasSubMenu": 0,
+              "Right": null
+            }
+          }
+        }
+      },
+      {
+        "$type": "ClassicUO.Game.Managers.Macro, ClassicUO",
+        "Name": "Feeblemind",
+        "Key": 1073741883,
+        "Alt": false,
+        "Ctrl": false,
+        "Shift": true,
+        "FirstNode": {
+          "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+          "Code": 6,
+          "SubCode": 0,
+          "HasSubMenu": 0,
+          "Right": {
+            "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+            "Code": 15,
+            "SubCode": 64,
+            "HasSubMenu": 1,
+            "Right": {
+              "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+              "Code": 6,
+              "SubCode": 0,
+              "HasSubMenu": 0,
+              "Right": null
+            }
+          }
+        }
+      },
+      {
+        "$type": "ClassicUO.Game.Managers.Macro, ClassicUO",
+        "Name": "Clumsy",
+        "Key": 1073741884,
+        "Alt": false,
+        "Ctrl": false,
+        "Shift": true,
+        "FirstNode": {
+          "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+          "Code": 6,
+          "SubCode": 0,
+          "HasSubMenu": 0,
+          "Right": {
+            "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+            "Code": 15,
+            "SubCode": 62,
+            "HasSubMenu": 1,
+            "Right": {
+              "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+              "Code": 6,
+              "SubCode": 0,
+              "HasSubMenu": 0,
+              "Right": null
+            }
+          }
+        }
+      },
+      {
+        "$type": "ClassicUO.Game.Managers.Macro, ClassicUO",
+        "Name": "Harm",
+        "Key": 1073741882,
+        "Alt": false,
+        "Ctrl": false,
+        "Shift": false,
+        "FirstNode": {
+          "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+          "Code": 6,
+          "SubCode": 0,
+          "HasSubMenu": 0,
+          "Right": {
+            "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+            "Code": 15,
+            "SubCode": 73,
+            "HasSubMenu": 1,
+            "Right": {
+              "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+              "Code": 6,
+              "SubCode": 0,
+              "HasSubMenu": 0,
+              "Right": null
+            }
+          }
+        }
+      },
+      {
+        "$type": "ClassicUO.Game.Managers.Macro, ClassicUO",
+        "Name": "GreaterHeal",
+        "Key": 52,
+        "Alt": true,
+        "Ctrl": false,
+        "Shift": false,
+        "FirstNode": {
+          "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+          "Code": 6,
+          "SubCode": 0,
+          "HasSubMenu": 0,
+          "Right": {
+            "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+            "Code": 15,
+            "SubCode": 90,
+            "HasSubMenu": 1,
+            "Right": {
+              "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+              "Code": 6,
+              "SubCode": 0,
+              "HasSubMenu": 0,
+              "Right": null
+            }
+          }
+        }
+      },
+      {
+        "$type": "ClassicUO.Game.Managers.Macro, ClassicUO",
+        "Name": "MiniHeal",
+        "Key": 49,
+        "Alt": true,
+        "Ctrl": false,
+        "Shift": false,
+        "FirstNode": {
+          "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+          "Code": 6,
+          "SubCode": 0,
+          "HasSubMenu": 0,
+          "Right": {
+            "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+            "Code": 15,
+            "SubCode": 65,
+            "HasSubMenu": 1,
+            "Right": {
+              "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+              "Code": 6,
+              "SubCode": 0,
+              "HasSubMenu": 0,
+              "Right": null
+            }
+          }
+        }
+      },
+      {
+        "$type": "ClassicUO.Game.Managers.Macro, ClassicUO",
+        "Name": "Cure",
+        "Key": 51,
+        "Alt": true,
+        "Ctrl": false,
+        "Shift": false,
+        "FirstNode": {
+          "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+          "Code": 6,
+          "SubCode": 0,
+          "HasSubMenu": 0,
+          "Right": {
+            "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+            "Code": 15,
+            "SubCode": 72,
+            "HasSubMenu": 1,
+            "Right": {
+              "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+              "Code": 6,
+              "SubCode": 0,
+              "HasSubMenu": 0,
+              "Right": null
+            }
+          }
+        }
+      },
+      {
+        "$type": "ClassicUO.Game.Managers.Macro, ClassicUO",
+        "Name": "MagicArrow",
+        "Key": 0,
+        "Alt": false,
+        "Ctrl": false,
+        "Shift": false,
+        "FirstNode": {
+          "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+          "Code": 6,
+          "SubCode": 0,
+          "HasSubMenu": 0,
+          "Right": {
+            "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+            "Code": 15,
+            "SubCode": 66,
+            "HasSubMenu": 1,
+            "Right": {
+              "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+              "Code": 6,
+              "SubCode": 0,
+              "HasSubMenu": 0,
+              "Right": null
+            }
+          }
+        }
+      },
+      {
+        "$type": "ClassicUO.Game.Managers.Macro, ClassicUO",
+        "Name": "ClearTargetQue",
+        "Key": 0,
+        "Alt": false,
+        "Ctrl": false,
+        "Shift": false,
+        "FirstNode": {
+          "$type": "ClassicUO.Game.Managers.MacroObjectString, ClassicUO",
+          "Text": "",
+          "Code": 70,
+          "SubCode": 0,
+          "HasSubMenu": 2,
+          "Right": null
+        }
+      },
+      {
+        "$type": "ClassicUO.Game.Managers.Macro, ClassicUO",
+        "Name": "TargetSelf",
+        "Key": 50,
+        "Alt": true,
+        "Ctrl": false,
+        "Shift": false,
+        "FirstNode": {
+          "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+          "Code": 23,
+          "SubCode": 0,
+          "HasSubMenu": 0,
+          "Right": null
+        }
+      },
+      {
+        "$type": "ClassicUO.Game.Managers.Macro, ClassicUO",
+        "Name": "Mindblast",
+        "Key": 1073741891,
+        "Alt": false,
+        "Ctrl": false,
+        "Shift": false,
+        "FirstNode": {
+          "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+          "Code": 6,
+          "SubCode": 0,
+          "HasSubMenu": 0,
+          "Right": {
+            "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+            "Code": 15,
+            "SubCode": 98,
+            "HasSubMenu": 1,
+            "Right": {
+              "$type": "ClassicUO.Game.Managers.MacroObject, ClassicUO",
+              "Code": 6,
+              "SubCode": 0,
+              "HasSubMenu": 0,
+              "Right": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "CounterBarEnabled": true,
+  "CounterBarHighlightOnUse": false,
+  "CounterBarHighlightOnAmount": false,
+  "CounterBarDisplayAbbreviatedAmount": false,
+  "CounterBarAbbreviatedAmount": 1000,
+  "CounterBarHighlightAmount": 5,
+  "CounterBarCellSize": 40,
+  "CounterBarRows": 1,
+  "CounterBarColumns": 12,
+  "ShadowsEnabled": true,
+  "AuraUnderFeetType": 0,
+  "AuraOnMouse": true,
+  "ShowNetworkStats": false,
+  "PartyAura": false,
+  "UseXBR": true,
+  "HideChatGradient": false,
+  "StandardSkillsGump": true,
+  "ShowNewMobileNameIncoming": true,
+  "ShowNewCorpseNameIncoming": true,
+  "GrabBagSerial": 0,
+  "GridLootType": 2,
+  "ReduceFPSWhenInactive": false,
+  "OverrideAllFonts": false,
+  "OverrideAllFontsIsUnicode": true,
+  "SallosEasyGrab": true,
+  "Brighlight": 0.0,
+  "JournalDarkMode": false,
+  "ContainersScale": 100,
+  "ScaleItemsInsideContainers": false,
+  "DoubleClickToLootInsideContainers": false,
+  "RelativeDragAndDropItems": false
+}

@@ -1,0 +1,8 @@
+!Loop
+Assistant.Macros.UseSkillAction|38
+Assistant.Macros.WaitForGumpAction|4267467659|False|300
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.GumpResponseAction|5|0|0
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.GumpResponseAction|10|0|0
+Assistant.Macros.PauseAction|00:00:04
