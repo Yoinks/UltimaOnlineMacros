@@ -1,6 +1,6 @@
 {
 	"enable_sound" : true,
-	"sound_volume" : 7,
+	"sound_volume" : 6,
 	"enable_music" : false,
 	"music_volume" : 100,
 	"enable_footsteps_sound" : true,
@@ -23,7 +23,7 @@
 	"party_aura_hue" : 68,
 	"friend_hue" : 68,
 	"criminal_hue" : 946,
-	"animal_hue" : 946,
+	"can_attack_hue" : 946,
 	"enemy_hue" : 49,
 	"murderer_hue" : 35,
 	"benefic_hue" : 89,
@@ -53,7 +53,7 @@
 	"fields_type" : 0,
 	"no_color_objects_out_of_range" : false,
 	"use_circle_of_transparency" : false,
-	"circle_of_transparency_radius" : 100,
+	"circle_of_transparency_radius" : 200,
 	"circle_of_transparency_type" : 0,
 	"vendor_gump_height" : 60,
 	"default_scale" : 1.0,
@@ -86,8 +86,8 @@
 		"Y" : 24
 	},
 	"game_window_position" : {
-		"X" : -3,
-		"Y" : -4
+		"X" : -5,
+		"Y" : -5
 	},
 	"game_window_lock" : false,
 	"game_window_full_size" : false,
@@ -97,8 +97,8 @@
 		"Y" : 849
 	},
 	"topbar_gump_position" : {
-		"X" : 35,
-		"Y" : 2
+		"X" : 2,
+		"Y" : 0
 	},
 	"topbar_gump_is_minimized" : false,
 	"topbar_gump_is_disabled" : false,
@@ -115,6 +115,7 @@
 	"hold_down_key_alt_to_close_anchored" : true,
 	"close_all_anchored_gumps_in_group_with_right_click" : false,
 	"hold_alt_to_move_gumps" : false,
+	"hide_screenshot_stored_in_message" : false,
 	"cast_spells_by_one_click" : false,
 	"buff_bar_time" : false,
 	"auto_open_doors" : true,
@@ -133,8 +134,8 @@
 	"override_container_location" : true,
 	"override_container_location_setting" : 2,
 	"override_container_location_position" : {
-		"X" : 916,
-		"Y" : 439
+		"X" : 1646,
+		"Y" : 745
 	},
 	"drag_select_humanoids_only" : true,
 	"name_overhead_type_allowed" : 3,
@@ -156,7 +157,12 @@
 	"counter_bar_cell_size" : 40,
 	"counter_bar_rows" : 1,
 	"counter_bar_columns" : 12,
+	"show_skills_changed_message" : true,
+	"show_skills_changed_delta_value" : 1,
+	"show_stats_changed_message" : true,
+	"filter_type" : 1,
 	"shadows_enabled" : true,
+	"shadows_statics" : true,
 	"aura_under_feet_type" : 0,
 	"aura_on_mouse" : true,
 	"party_aura" : false,
@@ -171,17 +177,17 @@
 	"override_all_fonts" : false,
 	"override_all_fonts_is_unicode" : true,
 	"sallos_easy_grab" : true,
-	"brighlight" : 0.0,
 	"journal_dark_mode" : false,
 	"containers_scale" : 100,
 	"scale_items_inside_containers" : false,
 	"double_click_to_loot_inside_containers" : false,
 	"use_large_container_gumps" : false,
 	"relative_drag_and_drop_items" : false,
+	"highlight_container_when_selected" : false,
 	"show_house_content" : false,
 	"save_healthbars" : false,
 	"text_fading" : true,
-	"use_smooth_boat_movement" : false,
+	"use_smooth_boat_movement" : true,
 	"ignore_stamina_check" : false,
 	"show_journal_client" : true,
 	"show_journal_objects" : true,

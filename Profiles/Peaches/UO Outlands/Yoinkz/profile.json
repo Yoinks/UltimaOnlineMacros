@@ -1,6 +1,6 @@
 {
 	"enable_sound" : true,
-	"sound_volume" : 11,
+	"sound_volume" : 3,
 	"enable_music" : false,
 	"music_volume" : 100,
 	"enable_footsteps_sound" : true,
@@ -97,8 +97,8 @@
 		"Y" : 842
 	},
 	"topbar_gump_position" : {
-		"X" : 0,
-		"Y" : 0
+		"X" : 29,
+		"Y" : 1
 	},
 	"topbar_gump_is_minimized" : false,
 	"topbar_gump_is_disabled" : false,
@@ -115,6 +115,7 @@
 	"hold_down_key_alt_to_close_anchored" : true,
 	"close_all_anchored_gumps_in_group_with_right_click" : false,
 	"hold_alt_to_move_gumps" : false,
+	"hide_screenshot_stored_in_message" : false,
 	"cast_spells_by_one_click" : false,
 	"buff_bar_time" : false,
 	"auto_open_doors" : true,
@@ -133,8 +134,8 @@
 	"override_container_location" : true,
 	"override_container_location_setting" : 2,
 	"override_container_location_position" : {
-		"X" : 1659,
-		"Y" : 719
+		"X" : 542,
+		"Y" : 946
 	},
 	"drag_select_humanoids_only" : true,
 	"name_overhead_type_allowed" : 3,
@@ -156,6 +157,7 @@
 	"counter_bar_cell_size" : 40,
 	"counter_bar_rows" : 1,
 	"counter_bar_columns" : 13,
+	"filter_type" : 1,
 	"shadows_enabled" : true,
 	"aura_under_feet_type" : 0,
 	"aura_on_mouse" : true,
@@ -171,13 +173,13 @@
 	"override_all_fonts" : false,
 	"override_all_fonts_is_unicode" : true,
 	"sallos_easy_grab" : false,
-	"brighlight" : 0.0,
 	"journal_dark_mode" : false,
 	"containers_scale" : 100,
 	"scale_items_inside_containers" : false,
 	"double_click_to_loot_inside_containers" : false,
 	"use_large_container_gumps" : false,
 	"relative_drag_and_drop_items" : false,
+	"highlight_container_when_selected" : false,
 	"show_house_content" : false,
 	"save_healthbars" : false,
 	"text_fading" : true,

@@ -20,9 +20,6 @@
 			<skill id="17" />
 			<skill id="41" />
 			<skill id="5" />
-			<skill id="40" />
-			<skill id="27" />
-			<skill id="43" />
 		</skillids>
 	</group>
 	<group name="Trade Skills">
@@ -39,13 +36,7 @@
 		</skillids>
 	</group>
 	<group name="Magic">
-		<skillids>
-			<skill id="16" />
-			<skill id="25" />
-			<skill id="46" />
-			<skill id="26" />
-			<skill id="32" />
-		</skillids>
+		<skillids />
 	</group>
 	<group name="Wilderness">
 		<skillids>
@@ -53,7 +44,7 @@
 			<skill id="35" />
 			<skill id="18" />
 			<skill id="20" />
-			<skill id="38" />
+			<skill id="32" />
 			<skill id="39" />
 		</skillids>
 	</group>
@@ -75,6 +66,18 @@
 			<skill id="29" />
 			<skill id="9" />
 			<skill id="22" />
+		</skillids>
+	</group>
+	<group name="Template">
+		<skillids>
+			<skill id="16" />
+			<skill id="25" />
+			<skill id="46" />
+			<skill id="26" />
+			<skill id="40" />
+			<skill id="27" />
+			<skill id="38" />
+			<skill id="43" />
 		</skillids>
 	</group>
 </skillsgroups>

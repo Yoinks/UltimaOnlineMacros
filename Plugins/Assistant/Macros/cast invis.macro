@@ -1,0 +1,5 @@
+!Loop
+Assistant.Macros.ExtCastSpellAction|44|4294967295
+Assistant.Macros.WaitForTargetAction|30
+Assistant.Macros.AbsoluteTargetAction|0|2|30920|646|672|7|401
+Assistant.Macros.PauseAction|00:00:08

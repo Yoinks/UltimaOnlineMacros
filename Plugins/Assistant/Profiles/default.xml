@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Windows-1252" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <profile>
 	<property name="ShowMobNames" type="System.Boolean">False</property>
 	<property name="ShowCorpseNames" type="System.Boolean">False</property>
@@ -50,7 +50,6 @@
 	<property name="SpellUnequip" type="System.Boolean">True</property>
 	<property name="RangeCheckLT" type="System.Boolean">True</property>
 	<property name="LTRange" type="System.Int32">12</property>
-	<property name="ClientPrio" type="System.String">Normal</property>
 	<property name="FilterSnoopMsg" type="System.Boolean">True</property>
 	<property name="OldStatBar" type="System.Boolean">False</property>
 	<property name="SmartLastTarget" type="System.Boolean">False</property>
@@ -75,7 +74,7 @@
 	<property name="LogPacketsByDefault" type="System.Boolean">False</property>
 	<property name="ShowHealth" type="System.Boolean">False</property>
 	<property name="HealthFmt" type="System.String">[{0}%]</property>
-	<property name="ShowPartyStats" type="System.Boolean">True</property>
+	<property name="ShowPartyStats" type="System.Boolean">False</property>
 	<property name="PartyStatFmt" type="System.String">[{0}% / {1}%]</property>
 	<property name="HotKeyStop" type="System.Boolean">False</property>
 	<property name="DiffTargetByType" type="System.Boolean">False</property>
@@ -121,8 +120,6 @@
 	<property name="ShowInRazorTitleBar" type="System.Boolean">False</property>
 	<property name="RazorTitleBarText" type="System.String">{name} on {account} ({profile} - {shard}) - Razor v{version}</property>
 	<property name="EnableUOAAPI" type="System.Boolean">True</property>
-	<property name="UOAMPath" type="System.String" />
-	<property name="UltimaMapperPath" type="System.String" />
 	<property name="TargetIndicatorFormat" type="System.String">* Target *</property>
 	<property name="NextPrevTargetIgnoresFriends" type="System.Boolean">False</property>
 	<property name="StealthStepsFormat" type="System.String">Steps: {step}</property>
@@ -174,6 +171,17 @@
 	<property name="ScriptDClickTypeRange" type="System.Boolean">False</property>
 	<property name="ScriptFindTypeRange" type="System.Boolean">False</property>
 	<property name="ScriptDisablePlayFinish" type="System.Boolean">False</property>
+	<property name="ShowWaypointOverhead" type="System.Boolean">True</property>
+	<property name="ShowWaypointDistance" type="System.Boolean">True</property>
+	<property name="ShowWaypointSeconds" type="System.Int32">10</property>
+	<property name="ClearWaypoint" type="System.Boolean">False</property>
+	<property name="HideWaypointDistance" type="System.Int32">4</property>
+	<property name="CreateWaypointOnDeath" type="System.Boolean">False</property>
+	<property name="ShowPartyFriendOverhead" type="System.Boolean">False</property>
+	<property name="OverrideSpellFormat" type="System.Boolean">True</property>
+	<property name="PotionReequip" type="System.Boolean">True</property>
+	<property name="EnableTextFilter" type="System.Boolean">False</property>
+	<property name="DisableScriptTooltips" type="System.Boolean">False</property>
 	<filters />
 	<counters>
 		<counter name="Bandages" enabled="True" image="True" />
@@ -197,16 +205,6 @@
 		<Buy-8 enabled="False" />
 		<Buy-9 enabled="False" />
 		<Buy-10 enabled="False" />
-		<Buy-11 enabled="False" />
-		<Buy-12 enabled="False" />
-		<Buy-13 enabled="False" />
-		<Buy-14 enabled="False" />
-		<Buy-15 enabled="False" />
-		<Buy-16 enabled="False" />
-		<Buy-17 enabled="False" />
-		<Buy-18 enabled="False" />
-		<Buy-19 enabled="False" />
-		<Buy-20 enabled="False" />
 		<IgnoreList enabled="False" />
 		<Organizer-1 hotbag="0" />
 		<Organizer-2 hotbag="0" />
@@ -238,20 +236,10 @@
 		<Restock-8 hotbag="0" />
 		<Restock-9 hotbag="0" />
 		<Restock-10 hotbag="0" />
-		<Restock-11 hotbag="0" />
-		<Restock-12 hotbag="0" />
-		<Restock-13 hotbag="0" />
-		<Restock-14 hotbag="0" />
-		<Restock-15 hotbag="0" />
-		<Restock-16 hotbag="0" />
-		<Restock-17 hotbag="0" />
-		<Restock-18 hotbag="0" />
-		<Restock-19 hotbag="0" />
-		<Restock-20 hotbag="0" />
+		<Scavenger enabled="False" />
 		<AutoSearchExemptions />
 		<Sell enabled="False" />
 		<UseOnce />
-		<Scavenger enabled="False" />
 	</agents>
 	<dresslists>
 		<list name="XBow">
@@ -260,13 +248,6 @@
 		<list name="Bow" />
 	</dresslists>
 	<hotkeys>
-		<key mod="2" key="50" send="False">L:1058</key>
-		<key mod="1" key="50" send="False">L:1059</key>
-		<key mod="0" key="-5" send="False">L:1395</key>
-		<key mod="0" key="-4" send="False">L:1960</key>
-		<key mod="4" key="-2" send="False">L:2040</key>
-		<key mod="4" key="-1" send="False">L:2041</key>
-		<key mod="0" key="114" send="False">L:1477</key>
 		<key mod="4" key="119" send="False">L:3002011</key>
 		<key mod="4" key="118" send="False">L:3002013</key>
 		<key mod="1" key="49" send="False">L:3002014</key>
@@ -283,6 +264,13 @@
 		<key mod="0" key="118" send="False">L:3002052</key>
 		<key mod="0" key="117" send="False">L:3002053</key>
 		<key mod="0" key="120" send="False">L:3002061</key>
+		<key mod="2" key="50" send="False">L:1058</key>
+		<key mod="1" key="50" send="False">L:1059</key>
+		<key mod="0" key="-5" send="False">L:1395</key>
+		<key mod="0" key="-4" send="False">L:1960</key>
+		<key mod="4" key="-2" send="False">L:2040</key>
+		<key mod="4" key="-1" send="False">L:2041</key>
+		<key mod="0" key="114" send="False">L:1477</key>
 		<key mod="4" key="49" send="False">L:1028</key>
 		<key mod="4" key="50" send="False">L:1029</key>
 		<key mod="4" key="51" send="False">L:1030</key>
@@ -296,6 +284,8 @@
 	<macrovariables />
 	<scriptvariables />
 	<friends />
+	<textfilters />
 	<targetfilters />
 	<soundfilters />
+	<waypoints />
 </profile>

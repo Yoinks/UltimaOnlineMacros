@@ -45,7 +45,6 @@
 			<skill id="18" />
 			<skill id="20" />
 			<skill id="32" />
-			<skill id="38" />
 			<skill id="39" />
 		</skillids>
 	</group>
@@ -77,6 +76,7 @@
 			<skill id="26" />
 			<skill id="40" />
 			<skill id="27" />
+			<skill id="38" />
 			<skill id="43" />
 		</skillids>
 	</group>

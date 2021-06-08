@@ -4,16 +4,13 @@
 		<skillids>
 			<skill id="6" />
 			<skill id="8" />
-			<skill id="10" />
 			<skill id="12" />
 			<skill id="19" />
 			<skill id="3" />
-			<skill id="36" />
 		</skillids>
 	</group>
 	<group name="Combat">
 		<skillids>
-			<skill id="31" />
 			<skill id="42" />
 			<skill id="41" />
 			<skill id="43" />
@@ -51,12 +48,10 @@
 	<group name="Thieving">
 		<skillids>
 			<skill id="14" />
-			<skill id="21" />
 			<skill id="24" />
 			<skill id="48" />
 			<skill id="28" />
 			<skill id="33" />
-			<skill id="47" />
 		</skillids>
 	</group>
 	<group name="Bard">
@@ -78,7 +73,16 @@
 			<skill id="26" />
 			<skill id="40" />
 			<skill id="27" />
+			<skill id="36" />
 			<skill id="38" />
+		</skillids>
+	</group>
+	<group name="Archer">
+		<skillids>
+			<skill id="31" />
+			<skill id="10" />
+			<skill id="21" />
+			<skill id="47" />
 		</skillids>
 	</group>
 </skillsgroups>
