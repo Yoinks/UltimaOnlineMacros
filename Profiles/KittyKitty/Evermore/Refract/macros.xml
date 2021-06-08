@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<macros>
+	<macro name="Journal" key="106" alt="True" ctrl="False" shift="False">
+		<actions>
+			<action code="8" subcode="12" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Bow" key="98" alt="False" ctrl="True" shift="False">
+		<actions>
+			<action code="18" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="Salute" key="115" alt="False" ctrl="True" shift="False">
+		<actions>
+			<action code="19" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="Explosion" key="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="6" subcode="0" submenutype="0" />
+			<action code="15" subcode="104" submenutype="1" />
+			<action code="6" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="EnergyBolt" key="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="6" subcode="0" submenutype="0" />
+			<action code="15" subcode="103" submenutype="1" />
+			<action code="6" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="Flamestrike" key="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="6" subcode="0" submenutype="0" />
+			<action code="15" subcode="112" submenutype="1" />
+			<action code="6" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="Lightning" key="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="6" subcode="0" submenutype="0" />
+			<action code="15" subcode="91" submenutype="1" />
+			<action code="6" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="MiniHeal" key="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="6" subcode="0" submenutype="0" />
+			<action code="15" subcode="65" submenutype="1" />
+			<action code="6" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="Cure" key="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="6" subcode="0" submenutype="0" />
+			<action code="15" subcode="72" submenutype="1" />
+			<action code="6" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="GreaterHeal" key="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="6" subcode="0" submenutype="0" />
+			<action code="15" subcode="90" submenutype="1" />
+			<action code="6" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="TargetSelf" key="50" alt="True" ctrl="False" shift="False">
+		<actions>
+			<action code="23" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="Weaken" key="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="6" subcode="0" submenutype="0" />
+			<action code="15" subcode="69" submenutype="1" />
+			<action code="6" subcode="0" submenutype="0" />
+			<action code="0" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="Feeblemind" key="1073741883" alt="False" ctrl="False" shift="True">
+		<actions>
+			<action code="6" subcode="0" submenutype="0" />
+			<action code="15" subcode="64" submenutype="1" />
+			<action code="6" subcode="0" submenutype="0" />
+			<action code="0" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="Clumsy" key="1073741884" alt="False" ctrl="False" shift="True">
+		<actions>
+			<action code="6" subcode="0" submenutype="0" />
+			<action code="15" subcode="62" submenutype="1" />
+			<action code="6" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="MindBlast" key="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="6" subcode="0" submenutype="0" />
+			<action code="15" subcode="98" submenutype="1" />
+			<action code="6" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="Harm" key="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="6" subcode="0" submenutype="0" />
+			<action code="15" subcode="73" submenutype="1" />
+			<action code="6" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="AOS Primary" key="1073741887" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="34" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="AOS Secondary" key="1073741888" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="35" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="chivalry-removecurse" key="51" alt="True" ctrl="False" shift="False">
+		<actions>
+			<action code="15" subcode="151" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="chivalry-closewounds" key="49" alt="True" ctrl="False" shift="False">
+		<actions>
+			<action code="15" subcode="144" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="chivalry-concecrateweapon" key="1073741882" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="15" subcode="145" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="chivlary-divinefurry" key="1073741883" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="15" subcode="147" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="chivalry-enemyofone" key="1073741885" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="15" subcode="148" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="bushido-evasion" key="1073741886" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="15" subcode="155" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="buffbar" key="115" alt="True" ctrl="False" shift="False">
+		<actions>
+			<action code="55" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+</macros>

@@ -1,0 +1,4 @@
+!Loop
+Assistant.Macros.GumpResponseAction|7|0|0
+Assistant.Macros.WaitForGumpAction|949095101|False|300
+Assistant.Macros.PauseAction|00:00:02

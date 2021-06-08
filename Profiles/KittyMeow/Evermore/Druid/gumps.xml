@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gumps>
+	<anchored_group_gump matrix_w="2" matrix_h="1">
+		<gump type="15" x="1183" y="874" serial="0" id="30" matrix_x="0" matrix_y="0" />
+		<gump type="15" x="1227" y="874" serial="0" id="18" matrix_x="1" matrix_y="0" />
+	</anchored_group_gump>
+	<gump type="9" x="1637" y="328" serial="11977" isminimized="False" />
+	<gump type="2" x="1609" y="658" serial="1074484653" graphic="60" isminimized="False" />
+	<gump type="18" x="1521" y="0" serial="0" />
+</gumps>

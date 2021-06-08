@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gumps>
+	<anchored_group_gump matrix_w="4" matrix_h="3">
+		<gump type="16" x="999" y="853" serial="0" id="38" matrix_x="0" matrix_y="0" />
+		<gump type="16" x="999" y="853" serial="0" id="38" matrix_x="1" matrix_y="0" />
+		<gump type="16" x="1087" y="853" serial="244517" id="46" matrix_x="2" matrix_y="0" />
+		<gump type="16" x="1087" y="853" serial="244517" id="46" matrix_x="3" matrix_y="0" />
+		<gump type="16" x="1087" y="897" serial="244492" id="21" matrix_x="2" matrix_y="1" />
+		<gump type="16" x="1087" y="897" serial="244492" id="21" matrix_x="3" matrix_y="1" />
+		<gump type="16" x="1087" y="941" serial="244485" id="14" matrix_x="2" matrix_y="2" />
+		<gump type="16" x="1087" y="941" serial="244485" id="14" matrix_x="3" matrix_y="2" />
+	</anchored_group_gump>
+	<anchored_group_gump matrix_w="2" matrix_h="2">
+		<gump type="14" x="996" y="900" serial="0" isprimary="True" matrix_x="0" matrix_y="0" />
+		<gump type="14" x="1040" y="900" serial="0" isprimary="False" matrix_x="1" matrix_y="0" />
+		<gump type="16" x="996" y="944" serial="0" id="30" matrix_x="0" matrix_y="1" />
+		<gump type="16" x="996" y="944" serial="0" id="30" matrix_x="1" matrix_y="1" />
+	</anchored_group_gump>
+	<anchored_group_gump matrix_w="2" matrix_h="1">
+		<gump type="15" x="841" y="875" serial="0" id="203" matrix_x="0" matrix_y="0" />
+		<gump type="15" x="885" y="875" serial="0" id="205" matrix_x="1" matrix_y="0" />
+	</anchored_group_gump>
+	<gump type="2" x="1521" y="654" serial="1074397118" graphic="60" isminimized="False" />
+	<gump type="9" x="1559" y="335" serial="21630" isminimized="False" />
+	<gump type="12" x="1160" y="825" serial="0" />
+	<gump type="15" x="752" y="864" serial="0" id="204" />
+	<gump type="3" x="960" y="4" serial="0" rows="1" columns="12" rectsize="40">
+		<controls>
+			<control graphic="3903" hue="0" />
+			<control graphic="3974" hue="0" />
+			<control graphic="3973" hue="0" />
+			<control graphic="3981" hue="0" />
+			<control graphic="3972" hue="0" />
+			<control graphic="3962" hue="0" />
+			<control graphic="3963" hue="0" />
+			<control graphic="3976" hue="0" />
+			<control graphic="3852" hue="0" />
+			<control graphic="3847" hue="0" />
+			<control graphic="3851" hue="0" />
+			<control graphic="3705" hue="38" />
+		</controls>
+	</gump>
+	<gump type="18" x="1562" y="-2" serial="0" />
+</gumps>
