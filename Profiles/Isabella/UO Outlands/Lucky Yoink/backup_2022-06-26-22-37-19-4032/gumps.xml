@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gumps>
+	<anchored_group_gump matrix_w="11" matrix_h="2">
+		<gump type="15" x="650" y="882" serial="0" id="26" matrix_x="0" matrix_y="0" />
+		<gump type="15" x="694" y="882" serial="0" id="53" matrix_x="1" matrix_y="0" />
+		<gump type="15" x="738" y="882" serial="0" id="47" matrix_x="2" matrix_y="0" />
+		<gump type="15" x="782" y="882" serial="0" id="39" matrix_x="3" matrix_y="0" />
+		<gump type="15" x="826" y="882" serial="0" id="54" matrix_x="4" matrix_y="0" />
+		<gump type="15" x="870" y="882" serial="0" id="59" matrix_x="5" matrix_y="0" />
+		<gump type="15" x="914" y="882" serial="0" id="55" matrix_x="6" matrix_y="0" />
+		<gump type="15" x="958" y="882" serial="0" id="7" matrix_x="7" matrix_y="0" />
+		<gump type="15" x="1002" y="882" serial="0" id="61" matrix_x="8" matrix_y="0" />
+		<gump type="15" x="1046" y="882" serial="0" id="63" matrix_x="9" matrix_y="0" />
+		<gump type="15" x="1090" y="882" serial="0" id="64" matrix_x="10" matrix_y="0" />
+		<gump type="15" x="650" y="926" serial="0" id="13" matrix_x="0" matrix_y="1" />
+		<gump type="15" x="694" y="926" serial="0" id="44" matrix_x="1" matrix_y="1" />
+		<gump type="15" x="738" y="926" serial="0" id="50" matrix_x="2" matrix_y="1" />
+		<gump type="15" x="782" y="926" serial="0" id="28" matrix_x="3" matrix_y="1" />
+		<gump type="15" x="826" y="926" serial="0" id="41" matrix_x="4" matrix_y="1" />
+		<gump type="15" x="870" y="926" serial="0" id="35" matrix_x="5" matrix_y="1" />
+		<gump type="15" x="914" y="926" serial="0" id="15" matrix_x="6" matrix_y="1" />
+		<gump type="15" x="958" y="926" serial="0" id="34" matrix_x="7" matrix_y="1" />
+		<gump type="15" x="1002" y="926" serial="0" id="45" matrix_x="8" matrix_y="1" />
+		<gump type="15" x="1046" y="926" serial="0" id="25" matrix_x="9" matrix_y="1" />
+		<gump type="15" x="1090" y="926" serial="0" id="62" matrix_x="10" matrix_y="1" />
+	</anchored_group_gump>
+	<anchored_group_gump matrix_w="6" matrix_h="4">
+		<gump type="16" x="1629" y="679" serial="0" id="38" matrix_x="0" matrix_y="0" />
+		<gump type="16" x="1629" y="679" serial="0" id="38" matrix_x="1" matrix_y="0" />
+		<gump type="16" x="1717" y="679" serial="0" id="32" matrix_x="2" matrix_y="0" />
+		<gump type="16" x="1717" y="679" serial="0" id="32" matrix_x="3" matrix_y="0" />
+		<gump type="16" x="1805" y="679" serial="574267" id="46" matrix_x="4" matrix_y="0" />
+		<gump type="16" x="1805" y="679" serial="574267" id="46" matrix_x="5" matrix_y="0" />
+		<gump type="16" x="1629" y="723" serial="0" id="36" matrix_x="0" matrix_y="1" />
+		<gump type="16" x="1629" y="723" serial="0" id="36" matrix_x="1" matrix_y="1" />
+		<gump type="16" x="1717" y="723" serial="574242" id="21" matrix_x="2" matrix_y="1" />
+		<gump type="16" x="1717" y="723" serial="574242" id="21" matrix_x="3" matrix_y="1" />
+		<gump type="16" x="1805" y="723" serial="574235" id="14" matrix_x="4" matrix_y="1" />
+		<gump type="16" x="1805" y="723" serial="574235" id="14" matrix_x="5" matrix_y="1" />
+	</anchored_group_gump>
+	<anchored_group_gump matrix_w="1" matrix_h="6">
+		<gump type="15" x="1596" y="375" serial="0" id="31" matrix_x="0" matrix_y="0" />
+		<gump type="15" x="1596" y="419" serial="0" id="17" matrix_x="0" matrix_y="1" />
+		<gump type="15" x="1596" y="463" serial="0" id="32" matrix_x="0" matrix_y="2" />
+		<gump type="15" x="1596" y="507" serial="0" id="52" matrix_x="0" matrix_y="3" />
+		<gump type="15" x="1596" y="551" serial="0" id="36" matrix_x="0" matrix_y="4" />
+		<gump type="15" x="1596" y="595" serial="0" id="48" matrix_x="0" matrix_y="5" />
+	</anchored_group_gump>
+	<anchored_group_gump matrix_w="3" matrix_h="7">
+		<gump matrix_x="2" matrix_y="0" />
+		<gump matrix_x="1" matrix_y="1" />
+		<gump matrix_x="1" matrix_y="2" />
+		<gump matrix_x="2" matrix_y="2" />
+		<gump matrix_x="2" matrix_y="3" />
+		<gump matrix_x="2" matrix_y="5" />
+		<gump matrix_x="2" matrix_y="6" />
+	</anchored_group_gump>
+	<gump type="9" x="1648" y="329" serial="30920" isminimized="False" />
+	<gump type="2" x="1358" y="801" serial="1075755432" graphic="60" isminimized="False" />
+	<gump type="2" x="1718" y="795" serial="1204022613" graphic="60" isminimized="False" />
+	<gump type="2" x="1541" y="799" serial="1446593686" graphic="60" isminimized="False" />
+	<gump type="5" x="645" y="861" serial="0" />
+	<gump type="4" x="1457" y="453" serial="30920" />
+	<gump type="21" x="100" y="100" serial="0" />
+	<gump type="3" x="1030" y="18" serial="0" rows="1" columns="14" rectsize="40">
+		<controls>
+			<control graphic="3980" hue="0" />
+			<control graphic="3974" hue="0" />
+			<control graphic="3973" hue="0" />
+			<control graphic="3981" hue="0" />
+			<control graphic="3972" hue="0" />
+			<control graphic="3962" hue="0" />
+			<control graphic="3963" hue="0" />
+			<control graphic="3976" hue="0" />
+			<control graphic="3852" hue="0" />
+			<control graphic="3847" hue="0" />
+			<control graphic="3851" hue="0" />
+			<control graphic="3617" hue="0" />
+			<control graphic="3705" hue="38" />
+			<control graphic="8017" hue="0" />
+		</controls>
+	</gump>
+	<gump type="1" x="1020" y="63" serial="0" graphic="30080" direction="1" />
+	<gump type="18" x="1595" y="7" serial="0" />
+</gumps>

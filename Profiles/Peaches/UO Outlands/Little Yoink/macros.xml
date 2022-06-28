@@ -17,51 +17,37 @@
 	</macro>
 	<macro name="Explosion" key="1073741887" alt="False" ctrl="False" shift="False">
 		<actions>
-			<action code="6" subcode="0" submenutype="0" />
 			<action code="15" subcode="104" submenutype="1" />
-			<action code="6" subcode="0" submenutype="0" />
 		</actions>
 	</macro>
 	<macro name="EnergyBolt" key="1073741888" alt="False" ctrl="False" shift="False">
 		<actions>
-			<action code="6" subcode="0" submenutype="0" />
 			<action code="15" subcode="103" submenutype="1" />
-			<action code="6" subcode="0" submenutype="0" />
 		</actions>
 	</macro>
 	<macro name="Flamestrike" key="1073741890" alt="False" ctrl="False" shift="False">
 		<actions>
-			<action code="6" subcode="0" submenutype="0" />
 			<action code="15" subcode="112" submenutype="1" />
-			<action code="6" subcode="0" submenutype="0" />
 		</actions>
 	</macro>
 	<macro name="Lightning" key="1073741889" alt="False" ctrl="False" shift="False">
 		<actions>
-			<action code="6" subcode="0" submenutype="0" />
 			<action code="15" subcode="91" submenutype="1" />
-			<action code="6" subcode="0" submenutype="0" />
 		</actions>
 	</macro>
 	<macro name="MiniHeal" key="49" alt="True" ctrl="False" shift="False">
 		<actions>
-			<action code="6" subcode="0" submenutype="0" />
 			<action code="15" subcode="65" submenutype="1" />
-			<action code="6" subcode="0" submenutype="0" />
 		</actions>
 	</macro>
 	<macro name="Cure" key="51" alt="True" ctrl="False" shift="False">
 		<actions>
-			<action code="6" subcode="0" submenutype="0" />
 			<action code="15" subcode="72" submenutype="1" />
-			<action code="6" subcode="0" submenutype="0" />
 		</actions>
 	</macro>
 	<macro name="GreaterHeal" key="52" alt="True" ctrl="False" shift="False">
 		<actions>
-			<action code="6" subcode="0" submenutype="0" />
 			<action code="15" subcode="90" submenutype="1" />
-			<action code="6" subcode="0" submenutype="0" />
 		</actions>
 	</macro>
 	<macro name="TargetSelf" key="50" alt="True" ctrl="False" shift="False">
@@ -71,39 +57,62 @@
 	</macro>
 	<macro name="Weaken" key="1073741883" alt="False" ctrl="False" shift="False">
 		<actions>
-			<action code="6" subcode="0" submenutype="0" />
 			<action code="15" subcode="69" submenutype="1" />
-			<action code="6" subcode="0" submenutype="0" />
-			<action code="0" subcode="0" submenutype="0" />
 		</actions>
 	</macro>
 	<macro name="Feeblemind" key="1073741883" alt="False" ctrl="False" shift="True">
 		<actions>
-			<action code="6" subcode="0" submenutype="0" />
 			<action code="15" subcode="64" submenutype="1" />
-			<action code="6" subcode="0" submenutype="0" />
-			<action code="0" subcode="0" submenutype="0" />
 		</actions>
 	</macro>
 	<macro name="Clumsy" key="1073741884" alt="False" ctrl="False" shift="True">
 		<actions>
-			<action code="6" subcode="0" submenutype="0" />
 			<action code="15" subcode="62" submenutype="1" />
-			<action code="6" subcode="0" submenutype="0" />
 		</actions>
 	</macro>
 	<macro name="MindBlast" key="1073741891" alt="False" ctrl="False" shift="False">
 		<actions>
-			<action code="6" subcode="0" submenutype="0" />
 			<action code="15" subcode="98" submenutype="1" />
-			<action code="6" subcode="0" submenutype="0" />
 		</actions>
 	</macro>
 	<macro name="Harm" key="1073741882" alt="False" ctrl="False" shift="False">
 		<actions>
-			<action code="6" subcode="0" submenutype="0" />
 			<action code="15" subcode="73" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="War Toggle" key="1073741884" alt="False" ctrl="False" shift="False">
+		<actions>
 			<action code="6" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="Invisibility" key="1073741882" alt="False" ctrl="False" shift="True">
+		<actions>
+			<action code="15" subcode="105" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Wall of Stone" key="1073741891" alt="False" ctrl="False" shift="True">
+		<actions>
+			<action code="15" subcode="85" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Dispel Field" key="1073741890" alt="False" ctrl="False" shift="True">
+		<actions>
+			<action code="15" subcode="95" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Teleport" key="1073741885" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="15" subcode="83" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Paralyze" key="1073741885" alt="False" ctrl="False" shift="True">
+		<actions>
+			<action code="15" subcode="99" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Magic Arrow" key="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="15" subcode="66" submenutype="1" />
 		</actions>
 	</macro>
 </macros>

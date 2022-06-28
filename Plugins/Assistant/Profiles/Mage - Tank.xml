@@ -5,7 +5,7 @@
 	<property name="DisplaySkillChanges" type="System.Boolean">False</property>
 	<property name="TitleBarText" type="System.String">UO - {char} {crimtime}- {mediumstatbar} {bp} {bm} {gl} {gs} {mr} {ns} {ss} {sa} {aids}</property>
 	<property name="TitleBarDisplay" type="System.Boolean">True</property>
-	<property name="AutoSearch" type="System.Boolean">True</property>
+	<property name="AutoSearch" type="System.Boolean">False</property>
 	<property name="NoSearchPouches" type="System.Boolean">True</property>
 	<property name="CounterWarnAmount" type="System.Int32">5</property>
 	<property name="CounterWarn" type="System.Boolean">True</property>
@@ -15,8 +15,8 @@
 	<property name="SortCounters" type="System.Boolean">True</property>
 	<property name="QueueActions" type="System.Boolean">False</property>
 	<property name="QueueTargets" type="System.Boolean">False</property>
-	<property name="WindowX" type="System.Int32">400</property>
-	<property name="WindowY" type="System.Int32">400</property>
+	<property name="WindowX" type="System.Int32">578</property>
+	<property name="WindowY" type="System.Int32">390</property>
 	<property name="CountStealthSteps" type="System.Boolean">True</property>
 	<property name="SysColor" type="System.Int32">945</property>
 	<property name="WarningColor" type="System.Int32">37</property>
@@ -42,8 +42,8 @@
 	<property name="Systray" type="System.Boolean">False</property>
 	<property name="TitlebarImages" type="System.Boolean">False</property>
 	<property name="SellAgentMax" type="System.Int32">99</property>
-	<property name="SkillListCol" type="System.Int32">-1</property>
-	<property name="SkillListAsc" type="System.Boolean">False</property>
+	<property name="SkillListCol" type="System.Int32">1</property>
+	<property name="SkillListAsc" type="System.Boolean">True</property>
 	<property name="AutoStack" type="System.Boolean">True</property>
 	<property name="ActionStatusMsg" type="System.Boolean">True</property>
 	<property name="RememberPwds" type="System.Boolean">False</property>
@@ -67,11 +67,10 @@
 	<property name="BlockHealPoison" type="System.Boolean">False</property>
 	<property name="SmoothWalk" type="System.Boolean">False</property>
 	<property name="Negotiate" type="System.Boolean">True</property>
-	<property name="MapX" type="System.Int32">1550</property>
-	<property name="MapY" type="System.Int32">62</property>
-	<property name="MapW" type="System.Int32">374</property>
-	<property name="MapH" type="System.Int32">349</property>
-	<property name="LogPacketsByDefault" type="System.Boolean">False</property>
+	<property name="MapX" type="System.Int32">-1750</property>
+	<property name="MapY" type="System.Int32">50</property>
+	<property name="MapW" type="System.Int32">1217</property>
+	<property name="MapH" type="System.Int32">802</property>
 	<property name="ShowHealth" type="System.Boolean">False</property>
 	<property name="HealthFmt" type="System.String">[{0}%]</property>
 	<property name="ShowPartyStats" type="System.Boolean">False</property>
@@ -245,23 +244,18 @@
 	</agents>
 	<dresslists>
 		<list name="Hally">
-			<item serial="1123586899" />
+			<item id="5182" />
 		</list>
 		<list name="Katana">
 			<item id="5119" />
 		</list>
 		<list name="axe">
-			<item serial="1123587432" />
+			<item id="3915" />
 		</list>
 	</dresslists>
 	<hotkeys>
 		<key mod="0" key="-1" send="False">L:3002015</key>
 		<key mod="0" key="-2" send="False">L:3002030</key>
-		<key mod="4" key="115" send="False">L:3002032</key>
-		<key mod="4" key="121" send="False">L:3002034</key>
-		<key mod="4" key="120" send="False">L:3002044</key>
-		<key mod="0" key="115" send="False">L:3002048</key>
-		<key mod="4" key="112" send="False">L:3002054</key>
 		<key mod="0" key="-4" send="False">L:1058</key>
 		<key mod="0" key="122" send="False">L:1060</key>
 		<key mod="0" key="-5" send="False">L:1395</key>
@@ -269,7 +263,6 @@
 		<key mod="4" key="-4" send="False">L:1960</key>
 		<key mod="4" key="-1" send="False">L:2041</key>
 		<key mod="4" key="-2" send="False">L:2054</key>
-		<key mod="0" key="114" send="False">L:1477</key>
 		<key mod="0" key="40" send="False">L:1015</key>
 		<key mod="4" key="118" send="False">Play: derpderp</key>
 		<key mod="2" key="66" send="False">Play: i ban thee</key>
@@ -350,6 +343,7 @@
 			<friend name="Miley Stewart" serial="0x2ADCF" />
 			<friend name="CromweII" serial="0x40D5" />
 			<friend name="LOL POISON LOL" serial="0x58A52" />
+			<friend name="A Pvp Lamer" serial="0x24FD1" />
 		</group>
 	</friends>
 	<textfilters />

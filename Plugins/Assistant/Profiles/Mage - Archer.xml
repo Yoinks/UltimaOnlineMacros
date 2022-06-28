@@ -15,8 +15,8 @@
 	<property name="SortCounters" type="System.Boolean">True</property>
 	<property name="QueueActions" type="System.Boolean">False</property>
 	<property name="QueueTargets" type="System.Boolean">False</property>
-	<property name="WindowX" type="System.Int32">400</property>
-	<property name="WindowY" type="System.Int32">400</property>
+	<property name="WindowX" type="System.Int32">783</property>
+	<property name="WindowY" type="System.Int32">405</property>
 	<property name="CountStealthSteps" type="System.Boolean">True</property>
 	<property name="SysColor" type="System.Int32">945</property>
 	<property name="WarningColor" type="System.Int32">37</property>
@@ -71,7 +71,6 @@
 	<property name="MapY" type="System.Int32">62</property>
 	<property name="MapW" type="System.Int32">374</property>
 	<property name="MapH" type="System.Int32">349</property>
-	<property name="LogPacketsByDefault" type="System.Boolean">False</property>
 	<property name="ShowHealth" type="System.Boolean">False</property>
 	<property name="HealthFmt" type="System.String">[{0}%]</property>
 	<property name="ShowPartyStats" type="System.Boolean">False</property>
@@ -245,23 +244,18 @@
 	</agents>
 	<dresslists>
 		<list name="Hally">
-			<item serial="1123586899" />
+			<item serial="1214851320" />
 		</list>
 		<list name="Katana">
-			<item id="5119" />
+			<item serial="1214851031" />
 		</list>
 		<list name="axe">
-			<item serial="1123587432" />
+			<item serial="1214851031" />
 		</list>
 	</dresslists>
 	<hotkeys>
 		<key mod="0" key="-1" send="False">L:3002015</key>
 		<key mod="0" key="-2" send="False">L:3002030</key>
-		<key mod="4" key="115" send="False">L:3002032</key>
-		<key mod="4" key="121" send="False">L:3002034</key>
-		<key mod="4" key="120" send="False">L:3002044</key>
-		<key mod="0" key="115" send="False">L:3002048</key>
-		<key mod="4" key="112" send="False">L:3002054</key>
 		<key mod="0" key="-4" send="False">L:1058</key>
 		<key mod="0" key="122" send="False">L:1060</key>
 		<key mod="0" key="-5" send="False">L:1395</key>
@@ -269,7 +263,6 @@
 		<key mod="4" key="-4" send="False">L:1960</key>
 		<key mod="4" key="-1" send="False">L:2041</key>
 		<key mod="4" key="-2" send="False">L:2054</key>
-		<key mod="0" key="114" send="False">L:1477</key>
 		<key mod="0" key="40" send="False">L:1015</key>
 		<key mod="4" key="118" send="False">Play: derpderp</key>
 		<key mod="2" key="66" send="False">Play: i ban thee</key>

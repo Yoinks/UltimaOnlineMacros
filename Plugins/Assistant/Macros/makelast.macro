@@ -1,4 +1,15 @@
 !Loop
+Assistant.Macros.DoubleClickTypeAction|4032|True
+Assistant.Macros.WaitForGumpAction|949095101|False|300
+Assistant.Macros.PauseAction|00:00:01
 Assistant.Macros.GumpResponseAction|7|0|0
 Assistant.Macros.WaitForGumpAction|949095101|False|300
-Assistant.Macros.PauseAction|00:00:02
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.DoubleClickAction|1075755441|3999
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.WaitForTargetAction|30
+Assistant.Macros.TargetTypeAction|False|5912
+Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.HotKeyAction|0|Restock Agent-01
+Assistant.Macros.AbsoluteTargetAction|0|0|1077752606|651|667|35|3651
+Assistant.Macros.PauseAction|00:00:01

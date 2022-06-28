@@ -1,6 +1,5 @@
 !Loop
-Assistant.Macros.DoubleClickTypeAction|4032|True
-Assistant.Macros.PauseAction|00:00:01
-Assistant.Macros.GumpResponseAction|7|0|0
-Assistant.Macros.WaitForGumpAction|949095101|False|300
-Assistant.Macros.PauseAction|00:00:01
+Assistant.Macros.UseSkillAction|36
+Assistant.Macros.WaitForTargetAction|30
+Assistant.Macros.AbsoluteTargetAction|1|0|0|871|3043|51|1196
+Assistant.Macros.PauseAction|00:00:10

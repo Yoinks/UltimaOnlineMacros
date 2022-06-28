@@ -15,8 +15,8 @@
 	<property name="SortCounters" type="System.Boolean">True</property>
 	<property name="QueueActions" type="System.Boolean">False</property>
 	<property name="QueueTargets" type="System.Boolean">False</property>
-	<property name="WindowX" type="System.Int32">268</property>
-	<property name="WindowY" type="System.Int32">427</property>
+	<property name="WindowX" type="System.Int32">572</property>
+	<property name="WindowY" type="System.Int32">307</property>
 	<property name="CountStealthSteps" type="System.Boolean">True</property>
 	<property name="SysColor" type="System.Int32">945</property>
 	<property name="WarningColor" type="System.Int32">37</property>
@@ -42,8 +42,8 @@
 	<property name="Systray" type="System.Boolean">False</property>
 	<property name="TitlebarImages" type="System.Boolean">False</property>
 	<property name="SellAgentMax" type="System.Int32">99</property>
-	<property name="SkillListCol" type="System.Int32">-1</property>
-	<property name="SkillListAsc" type="System.Boolean">False</property>
+	<property name="SkillListCol" type="System.Int32">1</property>
+	<property name="SkillListAsc" type="System.Boolean">True</property>
 	<property name="AutoStack" type="System.Boolean">True</property>
 	<property name="ActionStatusMsg" type="System.Boolean">True</property>
 	<property name="RememberPwds" type="System.Boolean">False</property>
@@ -67,11 +67,10 @@
 	<property name="BlockHealPoison" type="System.Boolean">False</property>
 	<property name="SmoothWalk" type="System.Boolean">False</property>
 	<property name="Negotiate" type="System.Boolean">True</property>
-	<property name="MapX" type="System.Int32">1560</property>
-	<property name="MapY" type="System.Int32">65</property>
-	<property name="MapW" type="System.Int32">374</property>
-	<property name="MapH" type="System.Int32">349</property>
-	<property name="LogPacketsByDefault" type="System.Boolean">False</property>
+	<property name="MapX" type="System.Int32">-1371</property>
+	<property name="MapY" type="System.Int32">97</property>
+	<property name="MapW" type="System.Int32">1144</property>
+	<property name="MapH" type="System.Int32">1058</property>
 	<property name="ShowHealth" type="System.Boolean">False</property>
 	<property name="HealthFmt" type="System.String">[{0}%]</property>
 	<property name="ShowPartyStats" type="System.Boolean">False</property>
@@ -251,15 +250,13 @@
 			<item id="5182" />
 		</list>
 		<list name="Shield">
-			<item serial="1266023311" />
+			<item id="7109" />
+		</list>
+		<list name="Weapon3">
+			<item id="5119" />
 		</list>
 	</dresslists>
 	<hotkeys>
-		<key mod="4" key="115" send="False">L:3002032</key>
-		<key mod="4" key="121" send="False">L:3002034</key>
-		<key mod="4" key="120" send="False">L:3002044</key>
-		<key mod="0" key="115" send="False">L:3002048</key>
-		<key mod="4" key="112" send="False">L:3002054</key>
 		<key mod="0" key="-4" send="False">L:1058</key>
 		<key mod="1" key="50" send="False">L:1059</key>
 		<key mod="0" key="122" send="False">L:1060</key>
@@ -268,10 +265,10 @@
 		<key mod="4" key="-1" send="False">L:2041</key>
 		<key mod="4" key="-2" send="False">L:2054</key>
 		<key mod="0" key="-1" send="False">L:2082</key>
-		<key mod="0" key="114" send="False">L:1477</key>
 		<key mod="0" key="40" send="False">L:1015</key>
 		<key mod="0" key="38" send="False">L:1016</key>
 		<key mod="4" key="118" send="False">Play: derpderp</key>
+		<key mod="4" key="52" send="False">Play: Drink DexStr</key>
 		<key mod="2" key="66" send="False">Play: i ban thee</key>
 		<key mod="1" key="53" send="False">Play: pouch</key>
 		<key mod="4" key="116" send="False">Play: rope</key>
@@ -280,10 +277,10 @@
 		<key mod="4" key="49" send="False">L:1028</key>
 		<key mod="4" key="50" send="False">L:1029</key>
 		<key mod="4" key="51" send="False">L:1030</key>
-		<key mod="4" key="52" send="False">L:1033</key>
 		<key mod="0" key="37" send="False">Toggle: Weapon1</key>
 		<key mod="0" key="112" send="False">Toggle: Weapon2</key>
 		<key mod="0" key="39" send="False">Toggle: Shield</key>
+		<key mod="0" key="113" send="False">Toggle: Weapon3</key>
 		<key mod="2" key="70" send="False">Add Target To: farts</key>
 	</hotkeys>
 	<passwords />

@@ -15,8 +15,8 @@
 	<property name="SortCounters" type="System.Boolean">True</property>
 	<property name="QueueActions" type="System.Boolean">False</property>
 	<property name="QueueTargets" type="System.Boolean">False</property>
-	<property name="WindowX" type="System.Int32">400</property>
-	<property name="WindowY" type="System.Int32">400</property>
+	<property name="WindowX" type="System.Int32">810</property>
+	<property name="WindowY" type="System.Int32">452</property>
 	<property name="CountStealthSteps" type="System.Boolean">True</property>
 	<property name="SysColor" type="System.Int32">945</property>
 	<property name="WarningColor" type="System.Int32">37</property>
@@ -42,8 +42,8 @@
 	<property name="Systray" type="System.Boolean">False</property>
 	<property name="TitlebarImages" type="System.Boolean">False</property>
 	<property name="SellAgentMax" type="System.Int32">99</property>
-	<property name="SkillListCol" type="System.Int32">-1</property>
-	<property name="SkillListAsc" type="System.Boolean">False</property>
+	<property name="SkillListCol" type="System.Int32">1</property>
+	<property name="SkillListAsc" type="System.Boolean">True</property>
 	<property name="AutoStack" type="System.Boolean">True</property>
 	<property name="ActionStatusMsg" type="System.Boolean">True</property>
 	<property name="RememberPwds" type="System.Boolean">False</property>
@@ -71,7 +71,6 @@
 	<property name="MapY" type="System.Int32">70</property>
 	<property name="MapW" type="System.Int32">374</property>
 	<property name="MapH" type="System.Int32">349</property>
-	<property name="LogPacketsByDefault" type="System.Boolean">False</property>
 	<property name="ShowHealth" type="System.Boolean">False</property>
 	<property name="HealthFmt" type="System.String">[{0}%]</property>
 	<property name="ShowPartyStats" type="System.Boolean">False</property>
@@ -206,9 +205,33 @@
 		<Buy-9 enabled="False" />
 		<Buy-10 enabled="False" />
 		<IgnoreList enabled="False" />
-		<Organizer-1 hotbag="0" />
-		<Organizer-2 hotbag="0" />
-		<Organizer-3 hotbag="0" />
+		<Organizer-1 hotbag="1074098654">
+			<item id="3821" />
+			<item id="3865" />
+			<item id="3856" />
+			<item id="2539" />
+			<item id="3878" />
+			<item id="3861" />
+			<item id="3877" />
+			<item id="29030" />
+			<item id="3873" />
+			<item id="3859" />
+			<item id="3885" />
+		</Organizer-1>
+		<Organizer-2 hotbag="1165049312">
+			<item id="3836" />
+			<item id="3980" />
+			<item id="3981" />
+			<item id="3963" />
+			<item id="3972" />
+			<item id="3973" />
+			<item id="3976" />
+			<item id="3962" />
+			<item id="3974" />
+		</Organizer-2>
+		<Organizer-3 hotbag="1104789170">
+			<item id="17087" />
+		</Organizer-3>
 		<Organizer-4 hotbag="0" />
 		<Organizer-5 hotbag="0" />
 		<Organizer-6 hotbag="0" />
@@ -226,7 +249,10 @@
 		<Organizer-18 hotbag="0" />
 		<Organizer-19 hotbag="0" />
 		<Organizer-20 hotbag="0" />
-		<Restock-1 hotbag="0" />
+		<Restock-1 hotbag="1090936532">
+			<item id="3827" amount="2000" />
+			<item id="5990" amount="2000" />
+		</Restock-1>
 		<Restock-2 hotbag="0" />
 		<Restock-3 hotbag="0" />
 		<Restock-4 hotbag="0" />
@@ -257,11 +283,6 @@
 	<hotkeys>
 		<key mod="0" key="-1" send="False">L:3002015</key>
 		<key mod="0" key="-2" send="False">L:3002030</key>
-		<key mod="4" key="115" send="False">L:3002032</key>
-		<key mod="4" key="121" send="False">L:3002034</key>
-		<key mod="4" key="120" send="False">L:3002044</key>
-		<key mod="0" key="115" send="False">L:3002048</key>
-		<key mod="4" key="112" send="False">L:3002054</key>
 		<key mod="0" key="-4" send="False">L:1058</key>
 		<key mod="1" key="50" send="False">L:1059</key>
 		<key mod="0" key="122" send="False">L:1060</key>
@@ -270,10 +291,10 @@
 		<key mod="4" key="-4" send="False">L:1960</key>
 		<key mod="4" key="-1" send="False">L:2041</key>
 		<key mod="4" key="-2" send="False">L:2054</key>
-		<key mod="0" key="114" send="False">L:1477</key>
 		<key mod="0" key="39" send="False">Play: all guard</key>
 		<key mod="0" key="37" send="False">Play: all kill</key>
 		<key mod="0" key="40" send="False">Play: all stay</key>
+		<key mod="0" key="116" send="False">Play: crook</key>
 		<key mod="4" key="118" send="False">Play: derpderp</key>
 		<key mod="1" key="87" send="False">Play: lockdown</key>
 		<key mod="1" key="53" send="False">Play: pouch</key>
@@ -284,6 +305,9 @@
 		<key mod="4" key="50" send="False">L:1029</key>
 		<key mod="4" key="51" send="False">L:1030</key>
 		<key mod="4" key="52" send="False">L:1033</key>
+		<key mod="2" key="90" send="False">Organizer Agent-01</key>
+		<key mod="2" key="88" send="False">Organizer Agent-02</key>
+		<key mod="2" key="67" send="False">Organizer Agent-03</key>
 		<key mod="2" key="70" send="False">Add Target To: farts</key>
 	</hotkeys>
 	<passwords />

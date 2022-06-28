@@ -1,13 +1,5 @@
 !Loop
-Assistant.Macros.ExtCastSpellAction|60|4294967295
-Assistant.Macros.SpeechAction|0|690|3|ENU|2|17|109|all release
-Assistant.Macros.PauseAction|00:00:07
-Assistant.Macros.GumpResponseAction|1|0|0
+Assistant.Macros.ExtCastSpellAction|5|4294967295
+Assistant.Macros.WaitForTargetAction|30
+Assistant.Macros.AbsoluteTargetAction|0|1|2320458|877|3046|11|401
 Assistant.Macros.PauseAction|00:00:01
-Assistant.Macros.DoubleClickAction|1136071056|18282
-Assistant.Macros.PauseAction|00:00:01
-Assistant.Macros.GumpResponseAction|7|0|0
-Assistant.Macros.PauseAction|00:00:01
-Assistant.Macros.GumpResponseAction|0|0|0
-Assistant.Macros.UseSkillAction|46
-Assistant.Macros.PauseAction|00:00:15
